@@ -13,3 +13,9 @@ Methodology Followed to Develop the Project:
 8) The model was trained with the dataset.
 9) The Python program was integrated with LabVIEW.
 10) In real time, every 2 minutes, LabVIEW captures 5 seconds of data at 2000 samples per second. The STFT is plotted, and the STFT data is sent to the model, which predicts the condition.
+
+Here we developed the program for single channel and 3 channel inputs.
+Here is single channel program frontend and backend
+![Fault prediction for single channel](https://github.com/user-attachments/assets/cbfa9eb7-910f-4191-8189-d169af239baf)
+![producer and consumer vibration ml single channel backend1](https://github.com/user-attachments/assets/37ef1b8e-3c6d-4bb2-bd36-47e33f211e41)
+![producer and consumer vibration ml single channel backend2](https://github.com/user-attachments/assets/6e50d316-daa6-4cbc-b6bd-524240445f1f)
