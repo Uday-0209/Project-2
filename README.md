@@ -22,8 +22,7 @@ Methodology Followed to Develop the Project:
 Here is Frontend of the Labview program.
 ![frontend ball screw fault](https://github.com/user-attachments/assets/8f27a2a3-bf35-4827-85e5-5dd0dc6001b1)
 
-Here is the backend labvie program images:
-
+Here is the backend labview program images:
 
 ![backend2](https://github.com/user-attachments/assets/f60e7385-8a0d-47fb-a125-fe998f583b55)
 
