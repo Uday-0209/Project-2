@@ -13,4 +13,9 @@ Methodology Followed to Develop the Project:
 8) The model was trained with the dataset.
 9) The Python program was integrated with LabVIEW.
 10) In real time, every 2 minutes, LabVIEW captures 5 seconds of data at 2000 samples per second. The STFT is plotted, and the STFT data is sent to the model, which predicts the condition.
+11) Another approach is to extract features from the vibration data, such as mean, standard deviation, RMS, peak value, crest factor, skewness, kurtosis, energy, dominant frequency, spectral bandwidth, spectral flatness, spectral entropy, peak spectral amplitude, mean spectral amplitude, and spectral energy.
+12) Extracting all of the above features for the first channel of each dataset, labeling them based on defects, and saving them as a single CSV file.
+13) The model was trained using a Decision Tree classifier with a depth of 11. (The column labels are 10.)
+14) The model was then deployed in LabVIEW. The LabVIEW program was developed in such a way that every 5 seconds, data is acquired and sent to Python, where it is processed, features are extracted, and predictions are made.
+15) For both static and real-time data, the model performed with good accuracy.
 
