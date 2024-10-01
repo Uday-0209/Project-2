@@ -19,3 +19,5 @@ Methodology Followed to Develop the Project:
 14) The model was then deployed in LabVIEW. The LabVIEW program was developed in such a way that every 5 seconds, data is acquired and sent to Python, where it is processed, features are extracted, and predictions are made.
 15) For both static and real-time data, the model performed with good accuracy.
 
+Here is Frontend of the Labview program.
+![frontend ball screw fault](https://github.com/user-attachments/assets/8f27a2a3-bf35-4827-85e5-5dd0dc6001b1)
